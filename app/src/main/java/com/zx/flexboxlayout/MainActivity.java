@@ -7,6 +7,9 @@ import android.widget.TextView;
 
 import com.google.android.flexbox.FlexboxLayout;
 
+/**
+ * Google官方流式布局的控件FlexboxLayout
+ */
 public class MainActivity extends AppCompatActivity {
 
     String[] tags = {"婚姻育儿", "散文", "设计", "上班这点事儿", "影视天堂", "大学生活", "美人说", "运动和健身", "工具癖", "生活家", "程序员", "想法", "短篇小说", "美食", "教育", "心理", "奇思妙想", "美食", "摄影"};
