@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zx.flexboxlayout.MainActivity">
+
+    <!--
+    justifyContent:沿主轴的对齐方向
+    alignContent：沿副轴的对齐方向
+    -->
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexboxLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:justifyContent="flex_start"
+        app:alignContent="flex_start"
+        app:flexDirection="row"
+        app:flexWrap="wrap">
+
+        <TextView
+            style="@style/tv_style"
+            android:text="1、你好" />
+
+        <TextView
+            android:id="@+id/textview2"
+            style="@style/tv_style"
+            android:text="2、那就需要加班vyy呵呵哈哈哈或或或" />
+
+        <TextView
+            android:id="@+id/textview3"
+            style="@style/tv_style"
+            android:text="3、那就需要加班vyy呵呵或或" />
+
+        <TextView
+            style="@style/tv_style"
+            android:text="4、行不行啊" />
+
+        <TextView
+            style="@style/tv_style"
+            android:text="5、你妹啊" />
+
+        <TextView
+            style="@style/tv_style"
+            android:text="6、可以啊" />
+
+        <TextView
+            style="@style/tv_style"
+            android:text="7、就这么办吧" />
+
+        <TextView
+            style="@style/tv_style"
+            android:text="8、不然呢" />
+
+        <TextView
+            style="@style/tv_style"
+            android:text="9、应该OK的青海湖V型挺有意义" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+</RelativeLayout>
